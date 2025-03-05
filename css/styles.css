@@ -1,3 +1,61 @@
-h1 {
-    color: red;
+:root {
+    --SteelBlue: #4682B4;
 }
+
+/*HOME*/
+#title-index {
+    background-color: var(--SteelBlue);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#add-action {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: var(--SteelBlue);
+    color: #fff;  
+}
+
+#add-action p {
+    font-size: 20px;
+}
+
+/*CREATE MODEL*/
+.form-group label {
+    display: block;
+    font-size: 20px;
+}
+
+.form-group input, textarea {
+    font-size: 20px;
+    width: 90%;
+}
+
+#create-form button {
+    border: none;
+    padding: 5px;
+    width: 60%;
+    background-color: var(--SteelBlue);
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
